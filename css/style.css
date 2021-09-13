@@ -3,8 +3,10 @@ body {
 }
 
 .navbar,
-.search {
-  background-color: #E30047;
+.search,
+#addToCart-btn,
+.buy-now {
+  background-color: #E30047 !important;
 }
 
 #search-btn {
@@ -13,7 +15,11 @@ body {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  border: 1px solid #E30047;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 #e97499, 0 6px 20px 0 #e97499;
 }
 
 .card h5 {

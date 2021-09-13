@@ -10,6 +10,7 @@ loadProducts();
 const showProducts = (products) => {
   const allProducts = products.map((pd) => pd);
   for (const product of allProducts) {
+
     const prevPrice = parseFloat((product.price / 10) + product.price).toFixed(2);
     const div = document.createElement("div");
     div.classList.add("col");
@@ -25,7 +26,7 @@ const showProducts = (products) => {
       </div>
       <div class="mx-auto">
         <button type="button"  onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="btn btn-danger px-4">Add to cart</button>
-        <button type="button" id="details-btn" onclick='showDetails(${product.price},${product.rate})'  class="btn btn-success px-4">Details</button>    
+        <button type="button" id="details-btn"  class="btn btn-success px-4">Details</button>    
       </div>
 </div>
 
