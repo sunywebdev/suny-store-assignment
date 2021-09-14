@@ -22,8 +22,10 @@ body {
 
 
 .card {
-  border: 1px solid #E30047;
+  background-image: url('https://nextjs.org/static/images/commerce/gradient-2.png');
+  border: 1px solid #e3004873;
   min-width: 260px;
+  transition: 0.3s linear !important;
 }
 
 .card:hover {
@@ -68,6 +70,7 @@ del {
 }
 
 .cart {
+  background-image: url('https://nextjs.org/static/images/commerce/gradient-2.png');
   box-shadow: 0 4px 8px 0 #e97499, 0 6px 20px 0 #e97499;
 }
 
