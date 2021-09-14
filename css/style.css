@@ -5,7 +5,10 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.navbar,
+.navbar {
+  background-color: #C8003E;
+}
+
 .search,
 #addToCart-btn,
 .buy-now {
@@ -16,6 +19,7 @@ body {
   color: #fff;
   background-color: #333333;
 }
+
 
 .card {
   border: 1px solid #E30047;
@@ -57,6 +61,10 @@ del {
 .card-img-top {
   width: 250px;
   height: 250px;
+}
+
+.cart-main .sticky-md-top {
+  top: 17vh !important;
 }
 
 .cart {
