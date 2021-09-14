@@ -41,11 +41,15 @@ del {
   color: red;
 }
 
+.price {
+  color: #0BA5B4;
+}
+
 .card-img-top {
   width: 250px;
   height: 250px;
 }
 
 .cart {
- box-shadow: 0 4px 8px 0 #e97499, 0 6px 20px 0 #e97499;
+  box-shadow: 0 4px 8px 0 #e97499, 0 6px 20px 0 #e97499;
 }

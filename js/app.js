@@ -16,12 +16,12 @@ const showProducts = (products) => {
     div.classList.add("col");
     div.innerHTML = `
 
-<div class="card h-100 py-3">
+<div class="card h-100 py-3 rounded-3">
       <img src="${product.image}" class="card-img-top mx-auto"  alt="${product.title}">
       <div class="card-body">
         <h5 class="card-title fw-bold">${product.title}</h5>
         <p class="card-text text-capitalize"><i class="fas fa-list-alt"></i> Category: ${product.category}</p>
-        <h4 class="text-primary fw-bold">Price: $ ${product.price}  <small><del>$ ${(prevPrice)}</del>(-10%)</small> </h4>
+        <h4 class="price fw-bold">Price: $ ${product.price}  <small><del>$ ${(prevPrice)}</del>(-10%)</small> </h4>
         <i class="fa fa-star-o rating-star"></i> <span class="rating-number">${product.rating.rate} (${product.rating.count})</span>
       </div>
       <div class="mx-auto">
