@@ -19,6 +19,7 @@ body {
 
 .card {
   border: 1px solid #E30047;
+  min-width: 260px;
 }
 
 .card:hover {
