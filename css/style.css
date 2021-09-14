@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 body {
   background-color: #F6F6F6;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .navbar,
@@ -22,11 +25,16 @@ body {
   box-shadow: 0 4px 8px 0 #e97499, 0 6px 20px 0 #e97499;
 }
 
+small {
+  font-size: 15px;
+}
+
 .card h5 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  color: #7B7B7B;
 }
 
 del {
@@ -39,5 +47,5 @@ del {
 }
 
 .cart {
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+ box-shadow: 0 4px 8px 0 #e97499, 0 6px 20px 0 #e97499;
 }
